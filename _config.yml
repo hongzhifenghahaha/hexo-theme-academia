@@ -1,19 +1,18 @@
 favicon: /img/favicon.png
 # Change to your profile picture
-avatar: /img/avatar.jpg
+avatar: /img/avatar3.jpg
 # if author sets in hexo_config, this string doesn't work
-author: 'Jason'
-author_bio: 'Your biography can be writed down here.'
+author: 'Zhifeng Hong'
+author_bio: 'Work hard, Live happy'
 
-since: 2020
+since: 2022
 
 # Top Menu 顶部菜单
 # #title 为页内跳转，单页模式
 # 可以选择外链或其他页面
 menu:
-  Publications: /#Publications
   About: /
-  Blog: https://phower.me
+  Project: /project/
 
 # flink picture will load if avator link calls on error
 loading_bg:
@@ -25,21 +24,21 @@ loading_bg:
 social:
   enable: true
 social_links:
-  fab fa-twitter: /
-  fab fa-facebook-square: /
-  fab fa-github: /
-  fab fa-stack-overflow: /
-  fab fa-linkedin: /
-  fab fa-weibo: /
-  fab fa-weixin: /
-  fab fa-qq: /
-  fas fa-envelope: / #E-mail
-  fas fa-rss: /  #rss
+  fab fa-weixin: /img/wechat_qrcode_hzf.jpg
+  fab fa-qq: /img/qq_qrcode_hzf.jpg
+  fab fa-github: https://github.com/hongzhifenghahaha
+  fas fa-envelope: mailto:hongzhifeng@mail.nwpu.edu.cn
+#  fab fa-twitter: /
+#  fab fa-facebook-square: /
+#  fab fa-stack-overflow: /
+#  fab fa-linkedin: /
+#  fab fa-weibo: /
+#  fas fa-rss: /  #rss
 
 # Additional social_links，额外添加自定义链接，可显示链接名称
 # name: url || icon_name
 e_social:
-  enable: true
+  enable: false
 e_social_links:
   Google Scholar: / || fas fa-graduation-cap
   ORCID: / || fab fa-orcid
@@ -47,8 +46,8 @@ e_social_links:
 # CV download link
 cv_dl:
   enable: true
-  dir: /attaches/CV.pdf
-  description: My Detail CV.
+  dir: /attaches/CV_Zhifeng_Hong.pdf
+  description: My Detail CV
 
 # Box-shadow
 # display box-shadow on page or not
